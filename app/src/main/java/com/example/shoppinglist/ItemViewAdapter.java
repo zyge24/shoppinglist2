@@ -40,7 +40,7 @@ public class ItemViewAdapter extends RecyclerView.Adapter<ItemViewHolder> {
             if(holder.editItem.getVisibility() == View.VISIBLE){
                 Item item = Storage.getInstance().getItems().get(pos);
                 item.setName(holder.editName.getText().toString());
-                item.setNote(holder.note.getText().toString());
+                item.setNote(holder.editNote.getText().toString());
                 holder.editItem.setVisibility(View.GONE);
                 notifyDataSetChanged();
             }else {

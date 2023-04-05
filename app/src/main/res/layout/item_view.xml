@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"
+        android:background="#2196F3"
         android:orientation="horizontal">
 
 
@@ -69,6 +70,7 @@
                 android:id="@+id/linearLayout2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
                 android:orientation="vertical"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -78,13 +80,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
-                    android:text="TUOTE" />
+                    android:text="TUOTE"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/txtItemNote"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lisätieto" />
+                    android:layout_marginLeft="5dp"
+                    android:text="Lisätieto"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
